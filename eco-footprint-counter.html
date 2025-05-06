@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eco Footprint Counter</title>
+
+  <!-- Chart.js for Pie Chart -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e6f2e6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #228B22;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 950px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    h1, h2 {
+      color: #006400;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    button {
+      background-color: #228B22;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #006400;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ddd;
+      margin-top: 40px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+
+    /* Dark Mode */
+    body.dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    body.dark-mode section {
+      background-color: #1e1e1e;
+    }
+
+    body.dark-mode header, body.dark-mode footer {
+      background-color: #333;
+    }
+
+    body.dark-mode button {
+      background-color: #90EE90;
+      color: #006400;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Eco Footprint Counter</h1>
+  <p>Track your impact. Protect our planet.</p>
+  <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</header>
+
+<section id="introduction">
+  <h2>Introduction</h2>
+  <p>The rising threat of climate change has made it vital for individuals and organizations to understand and reduce their environmental impact. The Eco Footprint Counter is a simple yet powerful tool designed to help users measure their carbon emissions based on daily activities like driving, electricity consumption, and air travel. By quantifying our eco footprints, we take the first step toward environmental awareness and action.</p>
+
+  <p>Unlike traditional environmental surveys that require expert help and lengthy procedures, the Eco Footprint Counter offers an accessible, easy-to-use platform. It translates complex calculations into a user-friendly format suitable for students, educators, professionals, and environmental enthusiasts. It not only informs but also motivates sustainable practices by making the invisible impacts of our actions visible.</p>
+
+  <p>With the Eco Footprint Counter, users are empowered to make informed lifestyle changes, set reduction goals, and track their progress over time. It is more than just a calculator — it is a stepping stone toward global sustainability and responsible citizenship.</p>
+
+  <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" alt="Eco Awareness">
+  <img src="https://images.unsplash.com/photo-1548786817-ea4b28fdc016" alt="Eco Lifestyle">
+</section>
+
+<section id="features">
+  <h2>Key Features</h2>
+  <ul>
+    <li>Simple eco footprint calculator based on real-world activities</li>
+    <li>Instant pie chart visualization for footprint breakdown</li>
+    <li>Downloadable text file reports</li>
+    <li>Dark Mode toggle for better user comfort</li>
+    <li>Mobile responsive design</li>
+    <li>Educational, engaging, and highly user-friendly interface</li>
+  </ul>
+
+  <p>The Eco Footprint Counter makes it easy to track your environmental impact. Users input simple details, and instantly receive their carbon footprint estimate. The pie chart clearly shows the contribution of each activity, helping users prioritize changes in their habits or operations.</p>
+
+  <p>Beyond mere numbers, the Eco Footprint Counter offers an interactive, smooth experience thanks to its dynamic charts and mobile-friendly layout. Whether you are accessing it from a desktop, tablet, or phone, the interface adapts seamlessly, making eco awareness possible anytime, anywhere.</p>
+
+  <img src="https://images.unsplash.com/photo-1576866209830-4aa3e4915f21" alt="Green Energy">
+  <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Sustainable Living">
+</section>
+
+<section id="applications">
+  <h2>Applications</h2>
+  <p>The Eco Footprint Counter finds applications across education, business, and personal life. Schools and colleges can integrate it into environmental science curricula to foster early sustainability awareness. Teachers can create projects around carbon footprints, encouraging students to think critically about their choices.</p>
+
+  <p>Corporations can use it as a part of their CSR initiatives, helping employees become conscious of their energy consumption and travel habits. Events, workshops, and green challenges can incorporate the footprint counter to measure and reward sustainable behavior.</p>
+
+  <p>Individuals and families can use the tool to set personal eco goals, calculate yearly improvements, or even participate in community sustainability programs. The Eco Footprint Counter is adaptable, scalable, and practical across all walks of life.</p>
+
+  <img src="https://images.unsplash.com/photo-1502920917128-1aa500764b1c" alt="Carbon footprint">
+  <img src="https://images.unsplash.com/photo-1584270354949-1dba3a68e0d1" alt="Environmental Education">
+</section>
+
+<section id="future">
+  <h2>Future Prospects</h2>
+  <p>The Eco Footprint Counter has immense potential for future growth. Upcoming versions could integrate Artificial Intelligence (AI) to suggest personalized sustainability tips based on user input. Smart device connectivity could allow for automatic data tracking from home appliances and vehicles, making footprint monitoring seamless.</p>
+
+  <p>Collaborations with educational platforms and environmental NGOs could enable the tool to become a standard part of climate education and outreach programs. Additionally, gamification elements like eco-rewards and social sharing challenges could enhance user engagement and commitment to greener lifestyles.</p>
+
+  <p>Ultimately, the Eco Footprint Counter can evolve into a global sustainability network where individuals, schools, companies, and communities track, share, and celebrate their eco journey together.</p>
+
+  <img src="https://images.unsplash.com/photo-1553514029-1318c9127859" alt="Sustainability Future">
+</section>
+
+<section id="advantages">
+  <h2>Advantages</h2>
+  <ul>
+    <li>Easy to use for all age groups</li>
+    <li>Instant results with meaningful insights</li>
+    <li>Educational and awareness building</li>
+    <li>Inspires positive lifestyle changes</li>
+    <li>Supports personal and organizational eco goals</li>
+    <li>Cost-free solution promoting environmental action</li>
+  </ul>
+
+  <p>By offering a no-barrier entry into eco-consciousness, the Eco Footprint Counter helps eliminate excuses and empowers action. Whether reducing energy consumption, cutting unnecessary travel, or embracing renewable energy, every informed decision starts with awareness — and this tool provides that awareness in a simple yet powerful way.</p>
+
+  <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Community Action">
+</section>
+
+<section id="impact">
+  <h2>Impact on Future</h2>
+  <p>If adopted widely, the Eco Footprint Counter could create a domino effect, inspiring millions of small individual actions that collectively reduce global carbon emissions. It can drive cultural shifts towards sustainability in households, educational institutions, and workplaces.</p>
+
+  <p>Empowered with real data, individuals are more likely to demand systemic changes such as greener products, better public transportation, and cleaner energy solutions. Thus, tools like this have the potential to not only change personal behaviors but also influence policy and market trends toward a sustainable future.</p>
+
+  <p>In the grand scheme, an informed and environmentally responsible society is humanity’s best hope against climate change — and simple tools like the Eco Footprint Counter play a critical role in building that society.</p>
+
+  <img src="https://images.unsplash.com/photo-1495259245428-040238b5f0b4" alt="Impact on Future">
+</section>
+
+<section id="calculator">
+  <h2>Eco Footprint Calculator</h2>
+  <form id="footprintForm">
+    <label>How many kilometers do you drive per week?</label><br>
+    <input type="number" id="driving" placeholder="e.g., 100"><br><br>
+
+    <label>How much electricity do you use per month (kWh)?</label><br>
+    <input type="number" id="electricity" placeholder="e.g., 350"><br><br>
+
+    <label>How many flights per year?</label><br>
+    <input type="number" id="flights" placeholder="e.g., 2"><br><br>
+
+    <button type="button" onclick="calculateFootprint()">Calculate My Footprint</button>
+  </form>
+
+  <h3 id="result"></h3>
+
+  <button id="downloadBtn" style="display:none;" onclick="downloadResult()">Download Result</button>
+
+  <canvas id="footprintChart" width="400" height="400"></canvas>
+</section>
+
+<footer>
+  <p>Created with love for the planet!</p>
+</footer>
+
+<script>
+  let chart;
+
+  function calculateFootprint() {
+    let driving = parseFloat(document.getElementById('driving').value) || 0;
+    let electricity = parseFloat(document.getElementById('electricity').value) || 0;
+    let flights = parseFloat(document.getElementById('flights').value) || 0;
+
+    let driveFootprint = driving * 0.2;
+    let electricityFootprint = electricity * 0.0005;
+    let flightFootprint = flights * 0.5;
+
+    let totalFootprint = driveFootprint + electricityFootprint + flightFootprint;
+
+    document.getElementById('result').innerText = Your estimated eco footprint is ${totalFootprint.toFixed(2)} tonnes of CO₂ per year.;
+    document.getElementById('downloadBtn').style.display = 'inline';
+
+    const ctx = document.getElementById('footprintChart').getContext('2d');
+    if (chart) chart.destroy();
+
+    chart = new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: ['Driving', 'Electricity', 'Flights'],
+        datasets: [{
+          label: 'Footprint Breakdown',
+          data: [driveFootprint, electricityFootprint, flightFootprint],
+          backgroundColor: ['#228B22', '#90EE90', '#006400'],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true
+      }
+    });
+  }
+
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
+
+  function downloadResult() {
+    let text = document.getElementById('result').innerText;
+    let blob = new Blob([text], { type: 'text/plain' });
+    let link = document.createElement('a');
+    link.href = window.URL.createObjectURL(blob);
+    link.download = 'eco-footprint-result.txt';
+    link.click();
+  }
+</script>
+
+</body>
+</html>
